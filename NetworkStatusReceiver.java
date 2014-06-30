@@ -35,6 +35,7 @@ public class NetworkStatusReceiver extends BroadcastReceiver {
         if (Network.hasNetwork(context)) {
             PushServiceClient.getInstance(context).processRegisterTask();
         }
+	// test other branch: main
     }
 
 }
